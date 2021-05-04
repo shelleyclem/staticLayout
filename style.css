@@ -1,0 +1,68 @@
+/* BODY */
+html, body {
+    height: 200vh;
+    width: 100vw;
+    background-color: black;
+    margin: (0, 0, 0, 0,);
+
+}
+
+/* TOP BACKGROUND IMAGE */
+.backgroundImg {
+    background-image: url(../staticLayout/assets/hmTale.jpg);
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    min-height: 80vh;
+    background-position: top, center;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    background-size: 100em;
+    background-position: right;
+    margin: (0, 0, 0, 0);
+}
+
+/* NAV */
+nav ul {
+    position: right;
+    background-color: transparent;
+    text-decoration: none;
+    z-index: 1;
+    position: relative;
+    justify-content: right;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    list-style-type: none;
+    z-index: 1;
+}
+
+
+li :hover {
+    color: gray;
+}
+
+
+.aHuluOg{
+    
+    max-width: 50%;
+    max-height: 50%;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    background-color: transparent;
+    justify-content: center;
+}
+
+
+.band {
+    background: linear-gradient(
+        140deg,
+        rgb(9,21,32) 10%,
+        rgb(14,68,85) 90%);
+    height: 20vh;
+    width: 100vh;
+    position: relative;
+    justify-items: flex-start;
+}
+
