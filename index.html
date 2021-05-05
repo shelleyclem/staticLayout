@@ -1,45 +1,3 @@
-<!-- 
-Page elements: 
-
-PHOTOS
-- handmaid's tale
-- Bob's Burgers
-- Billie Holiday
-- Solar Opposites
-- City on a Hill
-- four smaller photos are clickable
-- hulu original/handmaids tail text - looks like a png bc the cursor changes vs text; 
-- hulu logo
-
-FONTS: 
-
-
-
-
-
-LINKS
--- need to turn gray when you hover over them
-
-- log in 
-
-- start free trial button center
-
-- bundle (on bundle banner)
-
-
-
-
-
-NOTES: 
-
-Words on photos
-background color/gradient
-
- -->
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -54,7 +12,7 @@ background color/gradient
         <div class="backgroundImg">
             <nav>
                 <ul>
-                     <li> <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">log in</a></li>
+                     <li><b><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">log in</a></b></li>
                  </ul>
             </nav>
             <div class="aHuluOg">
@@ -62,72 +20,87 @@ background color/gradient
             </div>
             <div class="nowStreaming">
                 <p><h6>New episodes now streaming</h6></p>
-                </br>
             </div>
             <div class="oneMonth">
-                <p><h6></h6></p>
+                <p><h6>Try up to one month free</h6></p>
             </div>
-            <p><h6>Try up to one month free</h6></p>
+            
             <div class="huluLogo">
                 <img src="./assets/Hulu_Logo-01_newgreen.png" alt="Green Hulu logo">
             </div>
             <div class="Watch">
                 <p><h4>Watch thousands of shows and movies, with plans starting at $5.99/month.</h4></p>
             </div>
-            <div class="freeTrialButton">
+            <button class="freeTrialButton">
                 <div>
                     <ul>
-                        <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Start your free trial</a>
+                        <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Start your free trial</a>
                     </ul>
                 </div>
-            </div>
+            </button>
             <div class="eligible"> 
                 <p>Free trial for new & eligible returning subscribers only.</p>
             </div>
         </div>
         <div class="band">
-            <div class="bundleLogo"><span>
-                <img src="./assets/Bundle logos.png" alt="Hulu, Disney+, ESPN+ logos"></span>
+            <div class="bundleLogo">
+                <img src="./assets/Bundle logos.png" alt="Hulu, Disney+, ESPN+ logos">
             </div>
-            <div class="oneMonth">
-                <p>Bundle with any hulu plan & save</p>
-            </div>
-            <div class="getBundleCopy">
-                <p>Get Hulu, Disney+, and ESPN+ starting at $13.99/month.</p>
-            </div>
-            <div class="details">
-                <p>Details</p>
+            <div clas="bandCopy">
+                <ul>
+                    <li><h6>Bundle with any Hulu plan and save</h6></li>
+                    <li><h3>Get Hulu, Disney+, and ESPN+ starting at $13.99/month.</h3></li>
+                    <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Details</a></li>
+                </ul>
             </div>
             <div class="getBundle">
-                <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"></a>Get Bundle</li>
+                <div class="button"></div>
+                    <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"></a>Get Bundle</li>
+                </div>
             </div>
-            <div class="terms">
-                <p><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Terms Apply</a></p>
-            </div>
+        
+                <p><a href="rgb(45,189,158);" target="_blank">Terms Apply</a></p>
+
         <div class="bottomContainer">
-            <p>Included in all plans</p>
-            <p><h1>All the TV You Love</h1></p>
-            <p>Stream full seasons of exclusive series, current-season episodes, hit movies, Hulu Originals, kids shows, and more.</p>
-                <div class="box1">
-                    <img src="./assets/bobsBurgers.jpg" alt="Bob's Burgers">
-                        <p><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"></a>Past & Current Seasons</p>
-                        <p><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"></a>TV Shows</p>
-                <div class="box2">
-                    <img src="./assets/usVsBillieHoliday.jpg" alt="The United States vs. Billie Holiday">
-                        <p><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"></a>New & Classic</p>
-                        <p><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"></a>Movies</p>
+                <div class="allTheTV">
+                    <p>Included in all plans</p>
+                    <p><h1>All the TV You Love</h1></p>
+                 <p>Stream full seasons of exclusive series, current-season episodes, hit movies, Hulu Originals, kids shows, and more.</p>
                 </div>
-                <div class="box3">
-                    <img src="./assets/solarOpposites.jpg" alt="Solar Opposites">
-                        <p><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"></a>Groundbreaking</p>
-                        <p><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"></a>Hulu Originals</p>
+                <!-- CHange background of each box to specific img, and use ul/li elements with a tags -->
+
+                <div class = "secondaryContainer">
+                    <div class="box1">
+                        <ul>
+                            <li><a href="" target="_blank">Past & Current Seasons</a></li>
+                            <li><a href="" target="_blank">TV Shows</a></li>
+                        </ul>
+                    </div>
+                        
+                    <div class="box2">
+                        <ul>
+                            <li><a href="" target="_blank">New & Classic</a></li>
+                            <li><a href="" target="_blank">Movies</a></li>
+                        </ul>
+                    </div>
+
+                    
+                    <div class="box3">
+                        <ul>
+                            <li><a href="" target="_blank">Groundbreaking</a></li>
+                            <li><a href="" target="_blank">Hulu Originals</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="box4">
+                        <ul>
+                            <li><a href="" target="_blank">Add-on</a></li>
+                            <li><a href="" target="_blank">Premiums</a></li>
+                        </ul>
+                    </div>
+                    
+                        <p>Premium network add-ons available for an additional cost</p>
                 </div>
-                <div class="box4">
-                    <img src="./assets/cityOnAHill.jpg" alt="City on a Hill">
-                        <p><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"></a>Add-on</p>
-                        <p><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"></a>Premiums</p>
-                </div>
-                    <p>Premium network add-ons available for an additional cost</p>
         </div>
         </div>
     </div>

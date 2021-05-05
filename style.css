@@ -2,9 +2,50 @@
 html, body {
     height: 200vh;
     width: 100vw;
-    background-color: black;
     margin: (0, 0, 0, 0,);
 
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100vw;
+    align-content: center;
+    background-color: black;
+}
+
+/* TYPOGRAPHY */
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: .65rem;
+    font-style: light;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    color: white;
+    font-size: 1.4rem;
+}
+
+h6 {
+    font-family: Arial, Helvetica, sans-serif;    
+    text-transform: uppercase;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color: white;
+    font-style: bold;
+}
+
+.nowStreaming, p {
+    color: white;
+}
+
+.oneMonth {
+    color: rgb(45,189,158);;
 }
 
 /* TOP BACKGROUND IMAGE */
@@ -20,40 +61,74 @@ html, body {
     background-size: 100em;
     background-position: right;
     margin: (0, 0, 0, 0);
+    align-items: center;
 }
 
 /* NAV */
-nav ul {
+
+nav {
+    display: flex;
+    justify-items: right;
+    width: 100vw;
+}
+
+nav a{
     position: right;
-    background-color: transparent;
     text-decoration: none;
     z-index: 1;
     position: relative;
-    justify-content: right;
-    color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     list-style-type: none;
-    z-index: 1;
+    color: white;
 }
 
 
-li :hover {
+nav a:hover {
     color: gray;
+}
+
+
+.huluLogo img{
+    height: 15%;
+    width: 15%;
+    position:relative;
+    margin-left: 450px;
 }
 
 
 .aHuluOg{
     
-    max-width: 50%;
-    max-height: 50%;
+    width: 35%;
     display: flex;
     flex-direction: column;
     z-index: 2;
     background-color: transparent;
     justify-content: center;
+    margin-bottom: -12px;
+    
 }
 
+.freeTrialButton {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    
+}
+
+.freeTrialButton a:hover {
+    background-color: transparent 100%;
+}
+
+
+.freeTrialButton ul, li, a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    list-style: none;
+    color: black;
+    font-style: bold;
+    text-decoration: none;
+}
 
 .band {
     background: linear-gradient(
@@ -61,8 +136,101 @@ li :hover {
         rgb(9,21,32) 10%,
         rgb(14,68,85) 90%);
     height: 20vh;
-    width: 100vh;
-    position: relative;
-    justify-items: flex-start;
+    width: 100vw;
+    justify-content: space-around;
+ 
 }
+
+.bundleLogo {
+    height: 100%;
+}
+
+/* Use this to position logo! */
+.bundleLogo img {
+    height: 50%;
+    margin-top: 25px;
+    margin-left: 35px;
+}
+
+.bandCopy {
+    flex-direction: row;
+    position: relative;
+    font-size: ;
+}
+
+.bottomContainer {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    position: relative;
+
+}
+
+.allTheTV {
+    display: flex;
+    position: relative;
+    align-items: center;
+    
+}
+
+.secondaryContainer {
+    height: 95vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    position: relative;
+    
+}
+
+.box1 {
+    background-image: url(./assets/bobsBurgers.jpg);
+    display: flex;
+    align-items: flex-start;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;    
+} 
+
+
+
+.box2 {
+    background-image: url(./assets/usVsBillieHoliday.jpg);
+    display: flex;
+    align-items: flex-start;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+
+
+}
+
+.box3 {
+    background-image: url(./assets/solarOpposites.jpg);
+    display: flex;
+    align-items: flex-start;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+
+
+}
+
+.box4 {
+    background-image: url(./assets/cityOnAHill.jpg);
+    display: flex;
+    align-content:flex-start;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+
+    
+}
+
+
+
 
